@@ -6,3 +6,9 @@ def predict_sales(tv, radio, newspaper, model_path="model/sales_model.pkl"):
     input_data = np.array([[tv, radio, newspaper]])
     prediction = model.predict(input_data)
     return prediction[0]
+//dipak
+//
+
+
+//
+
