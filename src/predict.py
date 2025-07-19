@@ -7,8 +7,4 @@ def predict_sales(tv, radio, newspaper, model_path="model/sales_model.pkl"):
     prediction = model.predict(input_data)
     return prediction[0]
 //dipak
-//
-
-
-//
 
